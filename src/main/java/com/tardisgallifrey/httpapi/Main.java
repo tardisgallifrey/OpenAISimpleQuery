@@ -52,8 +52,8 @@ public class Main {
             if( field.contains("content")){
                 System.out.println("The response is:");
                 int start = field.indexOf(": ");
-                int end = field.indexOf("}");
-                System.out.println(field.substring(start+3, end-8));
+                int end = field.length();
+                System.out.println(field.substring(start+3, end-5));
             }
         }
 

@@ -3,8 +3,8 @@ plugins {
     id 'application'
 }
 
-group = 'com.tardisgallfrey'
-version = '1.0'
+group = 'com.tardisgallfrey.httpapi'
+version = '0.0.1-SNAPSHOT'
 
 repositories {
     mavenCentral()
